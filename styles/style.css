@@ -363,18 +363,28 @@ td, th{
 
 }
 .input-option{
-    max-width: 577px;
-    min-height: 386px;
+    max-width: 580px;
+    min-height: 290px;
    line-height: 200%;
 }
 #input-line{
     margin-bottom: 10px;
-    padding: 8px;
+    padding: 10px;
+    min-width: 195px;
+    background: #797474;
+    color: black;
 }
-#input-line-1{
+#line-1{
     margin-bottom: 10px;
     padding: 10px;
-    max-width: 577px;
+    min-width: 218px;
+    background: #797474;
+}
+#line-2{
+    margin-bottom: 10px;
+    padding: 10px;
+    min-width: 438px;
+    background: #797474;
 }
 /* Team Section */
 
@@ -438,5 +448,57 @@ td, th{
 .designation h6{
     font-size: 1.2rem;
     font-weight: 800;
+}
+.fitness-main{
+    display: flex;
+    max-width: 1060px;
+    min-height: 250px;
+    align-items: center;
+}
+.fitness-container{
+    max-width: 500px;
+    height: 176px;
+    line-height: 200%;
+    margin-left: 20px;
+
+}
+.get-main{
+    display: flex;
+    max-width: 520px;
+    height: 250px;
+}
+.get-1{
+    line-height: 200%;
+    margin: 20px 20px;
+}
+.get-2{
+    line-height: 200%;
+    margin-left: 20px;
+}
+.fitness{
+    font-size: 4.4rem;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #e5533b;
+}
+.start{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+ 
+footer {
+    background: #1a1a1a;
+    color: #fff;
+    /* padding: 20px 0; */
+    max-width: 1440px;
+    height: 400px;
+    
+}
+.footer-last{
+    max-width: 1060px;
 }
 

@@ -28,6 +28,13 @@
     .image-container-2{
         grid-template-columns: 1.2fr 0.70fr 1.1fr
     }
+    .Calculator-section-body{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .fitness-main{
+        flex-direction: column;
+        align-items: center;
+    }
     
 }
 @media screen and (max-width:500px) {
@@ -76,6 +83,12 @@
     .row-2{
         grid-template-columns: repeat(1,1fr);
         
+    }
+    .Calculator-section-body{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .fitness-main{
+        flex-direction: column;
     }
     
     
