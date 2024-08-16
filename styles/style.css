@@ -366,6 +366,7 @@ td, th{
     font-weight: 800;
     margin-top: 14px;
     margin-bottom: 20px;
+    color: rgb(255, 255, 255);
 
 }
 .Catculate-your p{
@@ -381,23 +382,27 @@ td, th{
 }
 #input-line{
     margin-bottom: 10px;
-    display: flex;
     padding: 10px;
-    min-width: 195px;
+    max-width: 195px;
+    border: none;
     background: rgba(167, 165, 165, 0.1);
     /* color: white; */
 }
-/* #line-1{
+#input-line-1{
     margin-bottom: 10px;
     padding: 10px;
-    min-width: 218px;
-    background: #797474;
-} */
+    width: 190px;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    background: rgba(167, 165, 165, 0.1);
+}
 #line-2{
     margin-bottom: 10px;
     padding: 10px;
-    min-width: 438px;
-    background: #797474;
+    width: 382px;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    background: rgba(167, 165, 165, 0.1);
 }
 /* Team Section */
 
