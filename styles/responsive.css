@@ -14,12 +14,12 @@
     .chage-image{
         grid-template-columns: repeat(2,1fr);
         align-items: center;
-        margin-left: 50px;
+        margin-left: 70px;
     }
     .run-main{
         flex-direction: column;
         align-items: center;
-        margin-bottom: 310px;
+        /* margin-bottom: 310px; */
         
     }
     .image-container-1{
@@ -63,12 +63,12 @@
     }
     .chage-image{
         grid-template-columns: repeat(1,1fr);
-        margin-left: 50px;
+        margin-left: 20%;
     }
     .run-main{
         flex-direction: column;
         margin-left: 20px;
-        margin-bottom: 310px;
+        /* margin-bottom: 310px; */
     }
     .image-container-1{
         grid-template-columns: 0.80fr 1.4fr 0fr;

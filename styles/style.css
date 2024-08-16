@@ -156,6 +156,7 @@ body{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    align-items: center;
 }
 .change-1,.change-2,.change-3,.change-4{
     border-radius: 90px;
@@ -171,10 +172,11 @@ body{
 /* run style here */
 .run-main{
     max-width: 1060px;
-    height: 375px;
+    /* min-height: 4px; */
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #333;
     /* gap: 100px; */
 
 }
@@ -196,13 +198,15 @@ body{
 .run-right{
     max-width: 370px;
     margin-top: 40px;
+    padding: 10px;
 }
 .run-right img{
     width: 80%;
     min-height: 290px;
     border-radius: 20px;
     margin-left: 20px;
-    object-fit: cover;
+    object-fit: none;
+    object-position: 65% 30%;
 }
 /* training-main */
 .training-main{
@@ -484,6 +488,7 @@ td, th{
     display: flex;
     max-width: 520px;
     height: 250px;
+    align-items: center;
 }
 .get-1{
     line-height: 200%;
